@@ -5,8 +5,8 @@
 }
 body {
 	max-width: 1920px;
-	font-family: 'Lato',
-	sans-serif;
+	font-family: 'Lato',sans-serif;
+	background-color: #EBEBEB;
 }
 
 .container {

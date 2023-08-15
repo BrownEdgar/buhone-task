@@ -1,10 +1,11 @@
+import Services from './components/Services'
 
 import './App.css'
 
 export default function App() {
 	return (
 		<div>
-			<h1>Buhone </h1>
+			<Services />
 		</div>
 	)
 }
