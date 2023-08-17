@@ -1,4 +1,4 @@
-import Services from './components/Services'
+import Services from './components/Services/Services'
 import Navbar from './components/Navbar/Navbar'
 
 import './App.css'
