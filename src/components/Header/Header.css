@@ -1,0 +1,108 @@
+.slick-slide {
+	width: 100%;
+	height: 670px;
+}
+
+.slick-slide img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.Slider__text {
+	position: absolute;
+	z-index: 5;
+	width: 589px;
+	height: 117px;
+	top: 100px;
+	left: 405px;
+	position: absolute;
+	width: 589px;
+
+}
+
+h1 {
+	font-family: Merriweather;
+	font-size: 48px;
+	font-weight: 700;
+	line-height: 66px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: white;
+}
+
+button {
+	margin-top: 60px;
+	width: 270px;
+	height: 60px;
+	top: 500px;
+	left: 405px;
+	font-family: Lato;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 25px;
+	letter-spacing: 0em;
+	text-align: center;
+	cursor: pointer;
+	color: rgba(255, 255, 255, 1);
+	background-color: rgb(18, 181, 236);
+	border: none;
+
+
+}
+
+.slick-dots {
+
+	width: 160px !important;
+	height: 20px !important;
+	bottom: 90px !important;
+	left: 405px !important;
+}
+
+.slick-dots li button::before {
+	font-size: 30px !important;
+	color: white !important;
+}
+
+.slick-prev {
+	width: 60px !important;
+	height: 60px !important;
+	top: 497px !important;
+	left: 1395px !important;
+	z-index: 5;
+	background-color: rgb(210, 208, 208);
+
+}
+
+.slick-prev::before {
+	font-size: 30px !important;
+
+}
+
+.slick-next {
+	width: 60px !important;
+	height: 60px !important;
+	top: 497px !important;
+	left: 1455px !important;
+	z-index: 5;
+	background-color: rgb(210, 208, 208);
+
+}
+
+.slick-next::before {
+	font-size: 30px !important;
+
+}
+
+.slick-prev:hover {
+	background-color: rgba(255, 255, 255, 1);
+}
+
+.slick-next:hover {
+	background-color: rgba(255, 255, 255, 1);
+}
+
+.slick-prev:hover:before,
+.slick-next:hover:before {
+	color: #000;
+}

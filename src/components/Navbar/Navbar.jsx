@@ -7,8 +7,8 @@ import Location from '../../assets/images/location.svg'
 
 import "./Navbar.css"
 
-
 export default function Navbar() {
+	
 	return (
 		<header>
 			<div className="container container__header">
