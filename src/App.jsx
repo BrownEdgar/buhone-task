@@ -1,10 +1,8 @@
-
+import SectionTwo from './components/sectionTwo/SectionTwo'
 import './App.css'
 
 export default function App() {
 	return (
-		<div>
-			<h1>Buhone </h1>
-		</div>
+		<SectionTwo/>
 	)
 }
