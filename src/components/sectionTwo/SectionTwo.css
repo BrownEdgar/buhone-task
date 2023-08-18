@@ -1,91 +1,93 @@
-.section__two{
-display: flex;
-justify-content: space-around;
-gap:40px;
-padding: 66px 0;
+.section__two {
+	display: flex;
+	justify-content: space-around;
+	gap: 40px;
+	padding: 66px 0;
 }
 
-.left__card{
-width:48%;
-padding: 33px 0;
+.left__card {
+	width: 48%;
+	padding: 33px 0;
 }
 
-.left__card a{
-width: 155px;
-height: 23px;
-text-decoration: none;
-color: #BDBDBD;
-font-size: 24px;
+.left__card a {
+	width: 155px;
+	height: 23px;
+	text-decoration: none;
+	color: #BDBDBD;
+	font-size: 24px;
 }
 
-.left__card h1{
-width: 347px;
-height: 117px;
-font-size: 48px;
-padding:43px 0;
-color: #333333;
-line-height: 33.12px;
+.left__card h1 {
+	width: 347px;
+	height: 117px;
+	font-size: 48px;
+	padding: 43px 0;
+	color: #333333;
+	line-height: 33.12px;
 }
 
-.left__card span{
-color: #005FA3;
-line-height:69.39px;
+.left__card span {
+	color: #005FA3;
+	line-height: 69.39px;
 }
 
-.left__card p{
-color: #000000;
-width: 445px;
-height: 265px;
-padding:83px 0;
-font-size: 18px;
-line-height: 24.83px;
+.left__card p {
+	color: #000000;
+	width: 445px;
+	height: 265px;
+	padding: 83px 0;
+	font-size: 18px;
+	line-height: 24.83px;
 }
 
-.right__card{
-width:50%;
-display: flex;
-flex-wrap: wrap;
-gap:25px;
-padding: 65px 0;
+.right__card {
+	width: 50%;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 25px;
+	padding: 65px 0;
 }
 
-.casees{
-width:255px;
-height: 255px;
-display: flex;
-flex-direction: column;
-gap:40px;
-padding:0 20px;
-background-color: #EBEBEB;
+.casees {
+	width: 255px;
+	height: 255px;
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+	padding: 20px;
+	background-color: #EBEBEB;
+	cursor: pointer;
+	font-weight: 700;
 }
-.casees:hover{
-background-color: #005FA3;
-transition: .3s;
-color: white;
+
+.casees:hover {
+	background-color: #005FA3;
+	transition: .3s;
+	color: white;
 }
+
 .casees:hover a {
-color: white;
+	color: white;
 }
 
-.casees h2{
-width: 75px;
-height: 54px;
-font-size: 55px;
-line-height: 66px;
-font-weight: 800;
+.casees h2 {
+	width: 75px;
+	height: 54px;
+	font-size: 55px;
+	line-height: 66px;
+	font-weight: 800;
 }
 
-.casees p{
-font-size: 14px;
-width: 107px;
-height: 37px;
-line-height: 18.48px;
+.casees p {
+	font-size: 14px;
+	width: 115px;
+	height: 37px;
+	line-height: 18px;
 }
 
-.casees a{
-width:77px ;
-height:17px ;
-color: #005FA3;
-line-height: 16.8px;
-padding: 20px 0;
+.casees a {
+	color: #005FA3;
+	line-height: 16.8px;
+	padding: 20px 0;
 }
