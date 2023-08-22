@@ -1,0 +1,117 @@
+.registration__page {
+  padding-top: 80px;
+}
+
+.header__block {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  gap:30px;
+  width:1110px;
+  height:623px;
+  background-image:url(../../assets/images/register__back.png);
+  border:1px ridge #FFFFFF;
+  color: white;
+}
+
+.information__page {
+  width:43%;
+  text-align:left;
+}
+
+.information__page h3 {
+  font-size: 48px;
+  font-weight: 900;
+  width: 445px;
+  font-family: 'Merriweather';
+  padding-bottom: 65px;
+}
+
+.text__line {
+  padding-bottom:50px;
+}
+
+.contact__block {
+  display: flex;
+  padding: 5px;
+  text-decoration: none;
+  color: white;
+}
+
+.information__page a {
+  text-decoration: none;
+  color: white;
+}
+
+.phone{
+  width: 49%;
+}
+
+.mail{
+  width: 49%;
+  margin-left: 20px;
+}
+
+.phone__one img{
+ width: 17.43px;
+ height: 30px;
+ margin-right:20px;
+}
+
+.mail__two img{
+  width: 39.42px;
+  height: 30px;
+  margin-right:10px;
+}
+
+.information__page span {
+  font-weight: 300;
+  font-size: 21px;
+  margin:10px;
+}
+
+.registration__form {
+ width: 45%;
+ border: 1px solid green;
+}
+
+.user__information {
+  width: 100%;
+}
+
+.user__information span {
+  color: white;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+
+.firstname {
+  padding: 0 155px;
+}
+
+.form__register {
+  padding:10px 0;
+}
+
+.form__register input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+}
+
+.ivanov {
+  margin-left: 29px;
+}
+
+.message__block {
+  margin-top: 30px;
+  padding: 20px 0;
+}
+
+textarea {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  text-decoration:none;
+}
