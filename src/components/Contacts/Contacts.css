@@ -146,4 +146,11 @@ input[type=submit] {
   margin-top: 50px;
   margin-right: 5px;
   color: #ffffffee;
+  transition: 0.5s;
 }
+
+input[type=submit]:hover {
+  background-color: #FFFFFF;
+  color: #005FA3;
+}
+
