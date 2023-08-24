@@ -28,7 +28,7 @@ export default function RegisterPage() {
             <input type="text" placeholder='Иван' className='ivan' />
             <input type="text" placeholder='Иванов' className='ivanov' />
             <p className='message__block'>Сообщение</p>
-            <textarea name="" id="" cols="44" rows="8"  placeholder='Ваше сообщение'></textarea>
+            <textarea name="" id="" cols="44" rows="6"  placeholder='Ваше сообщение'></textarea>
             <input type="submit" value='Отправить сообщение' className='submit__message'/>
         </form>
       </div>

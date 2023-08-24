@@ -16,6 +16,7 @@
 
 .information__page {
   width:43%;
+  padding-bottom: 226px;
   text-align:left;
 }
 
@@ -23,12 +24,14 @@
   font-size: 48px;
   font-weight: 900;
   width: 445px;
+  margin-top: 90px;
   font-family: 'Merriweather';
-  padding-bottom: 65px;
 }
 
 .text__line {
-  padding-bottom:50px;
+  width: 445px;
+  font-family:'Lato';
+  margin-top:95px;
 }
 
 .contact__block {
@@ -36,18 +39,22 @@
   padding: 5px;
   text-decoration: none;
   color: white;
+  margin-top:115px;
 }
 
 .information__page a {
+  font-family:'Lato';
   text-decoration: none;
   color: white;
 }
 
 .phone{
   width: 49%;
+  font-family:'Lato';
 }
 
 .mail{
+  font-family:'Lato';
   width: 49%;
   margin-left: 20px;
 }
@@ -68,11 +75,11 @@
   font-weight: 300;
   font-size: 21px;
   margin:10px;
+  font-family:'Lato';
 }
 
 .registration__form {
  width: 45%;
- border: 1px solid green;
 }
 
 .user__information {
@@ -83,35 +90,63 @@
   color: white;
   font-weight: 400;
   font-size: 16px;
+  font-family:'Lato';
 }
 
 
 .firstname {
-  padding: 0 155px;
+  padding: 0 227px;
+  font-family:'Lato';
 }
 
 .form__register {
-  padding:10px 0;
+  padding:5px 0;
 }
 
-.form__register input {
-  background-color: transparent;
+.ivan {
   border: none;
+  font-size: 18px;
+  width: 45%;
+  padding: 10px 0;
+  background-color: transparent;
   border-bottom: 1px solid white;
+  font-family:'Lato';
+  color:white;
 }
 
 .ivanov {
-  margin-left: 29px;
+  border: none;
+  margin-left: 35px;
+  width: 45%;
+  font-size: 18px;
+  padding: 10px 0;
+  background-color: transparent;
+  border-bottom: 1px solid white;
+  font-family:'Lato';
+  color:white;
 }
+
 
 .message__block {
-  margin-top: 30px;
-  padding: 20px 0;
+  margin-top: 55px;
+  padding: 10px 0;
+  font-family:'Lato';
 }
 
-textarea {
+form textarea {
   background-color: transparent;
   border: none;
   border-bottom: 1px solid white;
   text-decoration:none;
+  color: white;
+  font-size: 21px;
+  font-family:'Lato';
+}
+
+.submit__message {
+  width: 270px;
+  height: 60px;
+  background-color: #005FA3;
+  margin: 30px 215px;
+  font-family:'Lato';
 }
